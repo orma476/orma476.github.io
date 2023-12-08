@@ -2,3 +2,5 @@
 Pàgina web de la editorial DogMind
 
 Hi ha una copia d'un arxiu html per explicar el perque s'ha estructurat algunes parts de la pàgina web amb taules i no amb segments dintre d'altres segments.
+
+La pàgina inicial es l'arxiu MemeTime2.html.
