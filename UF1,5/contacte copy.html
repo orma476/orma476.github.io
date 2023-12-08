@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+  
+<head>
+
+  <link rel="icon" href="https://i.postimg.cc/3NDv3VQV/Welcome-to-Fig-Jam.png">
+  <meta charset="UTF-8">
+
+  <!-- "Etiqueta que optimitza el tamany de la pantalla en llocs mòbils (viewport)-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!--Link que conecta el document html amb el document css-->
+  <link rel="stylesheet" href="styles.css">
+
+  <title>DogMind/Contacte</title>
+
+</head>
+
+<body>
+
+<!--Bloc que conté la capçalera i divideix la pàgina en dos. La part esquerra es un formulari i l'altre es una imatge.-->
+
+  <article class="pantalla_dividida_contactes">
+
+    <!--Bloc que compon la capçalera.-->
+
+    <header class="capçalera_contacte">
+
+      <img class="logo_capçalera" src="IMG/logo.png" alt="Logo DogMind">
+
+      <h1 class="titol_capçalera">Comics & Memes</h1>
+
+     <nav class="nav_capçalera">
+
+        <ul class="llista_capçalera">
+
+          <li class="elements_llista_capçalera"><a class="links_capçalera" href="memetime2.html">Inicio</a></li>
+          <li class="elements_llista_capçalera"><a class="links_capçalera" href="comics.html">Comics</a></li>
+         <li class="elements_llista_capçalera"><a class="links_capçalera" href="contacte.html">Contacto</a></li>
+
+        </ul>
+
+      </nav>
+
+    </header>
+
+  <aside class="elements_inferiors_contactes">
+
+    <div class="pantalla_esquerra_contactes">
+
+      <form action="Action_Page.php" method="post" enctype="multipart/form-data" >
+
+        <fieldset>
+
+          <legend class="titol_formulari">Contactanos!!</legend>
+        
+          <input type="text" name="nom" value="" placeholder="Nombre" required> <br>
+
+          <input type="email" name="email" value="" placeholder="Email" required> <br>
+
+          <textarea class="textarea_formulari" type="text" autofocus name="missatge" value="" placeholder="Mensaje" cols="40" rows="5" required></textarea> <br>
+
+          <input class="boto_enviar_formulari" type="submit" name="enviar_contactes" value="Enviar"> 
+
+        </fieldset>
+
+      </form>
+
+    </div>
+
+    <div class="pantalla_dreta_contactes">
+
+      <img class="imatge_contactes_copy" src="IMG/oficina_DogTime.jpg" alt="Oficina DogMind">
+
+    </div>
+
+  </aside>
+
+  </article>
+
+</body>
+
+</html>
